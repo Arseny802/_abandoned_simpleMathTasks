@@ -1,0 +1,85 @@
+[{
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\main.cpp",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\3-0",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\main.cpp -o C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\main.cpp.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\RFiler.cpp",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\3-0",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\RFiler.cpp -o C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\RFiler.cpp.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\R_IO.h",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\3-0",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\R_IO.h -o C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\R_IO.h.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\RFiler.h",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\3-0",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\RFiler.h -o C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\RFiler.h.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\R_IO.cpp",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\3-0",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\R_IO.cpp -o C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\R_IO.cpp.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\FootballTeam.h",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\3-0",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\FootballTeam.h -o C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\FootballTeam.h.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\FootballTeam.cpp",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\3-0",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\FootballTeam.cpp -o C:\\subWork\\CheslakovKontext\\Solutions\\3-0\\FootballTeam.cpp.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\main.cpp",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\2-1",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\main.cpp -o C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\main.cpp.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\Sequence.cpp",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\2-1",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\Sequence.cpp -o C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\Sequence.cpp.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\Sequence.h",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\2-1",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\Sequence.h -o C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\Sequence.h.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\RFiler.h",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\2-1",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\RFiler.h -o C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\RFiler.h.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\R_IO.h",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\2-1",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\R_IO.h -o C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\R_IO.h.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\RFiler.cpp",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\2-1",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\RFiler.cpp -o C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\RFiler.cpp.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\R_IO.cpp",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\2-1",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\R_IO.cpp -o C:\\subWork\\CheslakovKontext\\Solutions\\2-1\\R_IO.cpp.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\main.cpp",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\2-4",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\main.cpp -o C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\main.cpp.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\Circle.h",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\2-4",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\Circle.h -o C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\Circle.h.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\RFiler.cpp",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\2-4",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\RFiler.cpp -o C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\RFiler.cpp.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\Circle.cpp",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\2-4",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\Circle.cpp -o C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\Circle.cpp.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\R_IO.h",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\2-4",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\R_IO.h -o C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\R_IO.h.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\RFiler.h",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\2-4",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\RFiler.h -o C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\RFiler.h.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\R_IO.cpp",
+  "directory": "C:\\subWork\\CheslakovKontext\\Solutions\\2-4",
+  "command": "clang  -c C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\R_IO.cpp -o C:\\subWork\\CheslakovKontext\\Solutions\\2-4\\R_IO.cpp.o -target x86_64-pc-windows-gnu -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++ -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\x86_64-w64-mingw32 -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include\\c++\\backward -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include -IC:\\TDM-GCC-64\\include -IC:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\5.1.0\\include-fixed -IC:\\TDM-GCC-64\\x86_64-w64-mingw32\\include -I. -I.  -g  -O0  -Wall"
+ }]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Context" Database="" Version="10.0.0">
+  <Project Name="sequence" Path="2-1/sequence.project" Active="No"/>
+  <Project Name="circle" Path="2-4/circle.project" Active="No"/>
+  <Project Name="FootballTeam" Path="3-0/FootballTeam.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="sequence" ConfigName="Debug"/>
+      <Project Name="circle" ConfigName="Debug"/>
+      <Project Name="FootballTeam" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="sequence" ConfigName="Release"/>
+      <Project Name="circle" ConfigName="Release"/>
+      <Project Name="FootballTeam" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
