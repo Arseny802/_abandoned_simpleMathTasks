@@ -1,65 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\subWork\CheslakovKontext\Solutions\Context.workspace">
-  <int Value="7" Name="m_selectedTab"/>
-  <wxString Value="C:\subWork\CheslakovKontext\Solutions\Context.workspace" Name="m_workspaceName"/>
+<Session Name="/home/arseny/Documents/subWork/CheslakovKontext/Solutions/Context.workspace">
+  <int Value="4" Name="m_selectedTab"/>
+  <wxString Value="/home/arseny/Documents/subWork/CheslakovKontext/Solutions/Context.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\subWork\CheslakovKontext\Solutions\3-0\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
+      <wxString Value="/home/arseny/Documents/subWork/CheslakovKontext/Solutions/3-1/main.cc" Name="FileName"/>
+      <int Value="29" Name="FirstVisibleLine"/>
       <int Value="21" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\subWork\CheslakovKontext\Solutions\3-0\FootballTeam.cpp" Name="FileName"/>
-      <int Value="2" Name="FirstVisibleLine"/>
-      <int Value="37" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds">
-        <IntVectorItem Value="69"/>
-        <IntVectorItem Value="77"/>
-        <IntVectorItem Value="92"/>
-      </IntVector>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\subWork\CheslakovKontext\Solutions\3-0\FootballTeam.h" Name="FileName"/>
+      <wxString Value="/home/arseny/Documents/subWork/CheslakovKontext/Solutions/3-1/FixedSet.h" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="22" Name="CurrentLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\subWork\CheslakovKontext\Solutions\3-0\RFiler.h" Name="FileName"/>
+      <wxString Value="/home/arseny/Documents/subWork/CheslakovKontext/Solutions/3-1/FixedSet.cc" Name="FileName"/>
+      <int Value="123" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/arseny/Documents/subWork/CheslakovKontext/Solutions/3-1/resource/test-3.txt" Name="FileName"/>
+      <int Value="8" Name="FirstVisibleLine"/>
+      <int Value="6" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/arseny/Documents/subWork/CheslakovKontext/Solutions/3-1/one-filed/FixedSet.cpp" Name="FileName"/>
+      <int Value="555" Name="FirstVisibleLine"/>
+      <int Value="571" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/arseny/Documents/subWork/CheslakovKontext/Solutions/3-1/ReaderIo.cc" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="3" Name="CurrentLine"/>
+      <int Value="2" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\subWork\CheslakovKontext\Solutions\3-0\RFiler.cpp" Name="FileName"/>
-      <int Value="48" Name="FirstVisibleLine"/>
-      <int Value="91" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\subWork\CheslakovKontext\Solutions\3-0\R_IO.h" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="1" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\subWork\CheslakovKontext\Solutions\3-0\R_IO.cpp" Name="FileName"/>
-      <int Value="6" Name="FirstVisibleLine"/>
-      <int Value="24" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\TDM-GCC-64\lib\gcc\x86_64-w64-mingw32\5.1.0\include\c++\bits\c++0x_warning.h" Name="FileName"/>
-      <int Value="9" Name="FirstVisibleLine"/>
-      <int Value="18" Name="CurrentLine"/>
+      <wxString Value="/home/arseny/Documents/subWork/CheslakovKontext/Solutions/3-1/RFiler.h" Name="FileName"/>
+      <int Value="12" Name="FirstVisibleLine"/>
+      <int Value="41" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -67,5 +56,4 @@
   <SerializedObject Name="m_breakpoints">
     <long Value="0" Name="Count"/>
   </SerializedObject>
-  <wxString Value="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.inc;*.mm;*.m;*.xrc;*.plist;*.txt" Name="m_findInFilesMask"/>
 </Session>

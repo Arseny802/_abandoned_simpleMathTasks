@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ FootballTeam - Debug ]----------"
-	@cd "3-0" && "$(MAKE)" -f  "FootballTeam.mk"
+	@echo "----------Building project:[ FixedSet - Debug ]----------"
+	@cd "3-1" && "$(MAKE)" -f  "FixedSet.mk"
 clean:
-	@echo "----------Cleaning project:[ FootballTeam - Debug ]----------"
-	@cd "3-0" && "$(MAKE)" -f  "FootballTeam.mk" clean
+	@echo "----------Cleaning project:[ FixedSet - Debug ]----------"
+	@cd "3-1" && "$(MAKE)" -f  "FixedSet.mk" clean
