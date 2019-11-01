@@ -11,7 +11,7 @@
 
 #include "ReaderIo.h"
 #include "RFiler.h"
-#include "FixedSet.h"
+#include "CityGraph.h"
 
 /*
 * Run test or IO stream by default.
@@ -31,32 +31,47 @@ const std::string kTestFileD = "../resource/test-4.txt";
 
 inline void TestFile(std::string file_to_run = kTestFileA)
 {
-    unsigned int number_amount, requests_amount, iter;
-    std::vector<int> numbers, requests;
+    unsigned int cities_amount, iter;
+    std::vector<unsigned int> renamed_towns;
+    std::vector<int> tmp;
+    Road tmp_road;
     double elapsed;
     CityGraph city_graph;
     RFiler filer(file_to_run);
     
-    number_amount = filer.ReadNumber();
-    numbers = filer.ReadNumbers(number_amount);
-    requests_amount = filer.ReadNumber();
-    requests = filer.ReadNumbers(requests_amount);
-
     std::cout << "Testing file '" << file_to_run << "'" << std::endl;
     auto begin = std::chrono::steady_clock::now();
     
-    fixed_set.Initialize(numbers);
-    std::cout << "Result:   " << std::endl;
-    for (iter = 0; iter < requests_amount; ++iter)
+    cities_amount = filer.ReadNumber();
+    city_graph.Initialize(cities_amount);
+    
+    for (iter = 0; iter < cities_amount - 1; ++iter)
     {
-        if (fixed_set.Contains(requests[iter]))
+        tmp = filer.ReadNumbers(2);
+        tmp_road.point_a = tmp[0];
+        tmp_road.point_b = tmp[1];
+        city_graph.AddRoadToFirstGraph(tmp_road);
+    }
+    for (iter = 0; iter < cities_amount - 1; ++iter)
+    {
+        tmp = filer.ReadNumbers(2);
+        tmp_road.point_a = tmp[0];
+        tmp_road.point_b = tmp[1];
+        city_graph.AddRoadToSecondGraph(tmp_road);
+    }
+    
+    std::cout << "Result:   " << std::endl;
+    if (city_graph.CheckIsomorphic())
+    {
+        renamed_towns = city_graph.GetRenamedTowns();
+        for (iter = 0; iter < cities_amount; ++iter)
         {
-            std::cout << "Yes" << std::endl;
+            std::cout << renamed_towns[iter] << std::endl;
         }
-        else
-        {
-            std::cout << "No" << std::endl;
-        }
+    }
+    else
+    {
+        std::cout << "-1" << std::endl;
     }
     
     elapsed = std::chrono::duration_cast<std::chrono::microseconds>
@@ -92,23 +107,9 @@ int main(int argc, char* argv[])
     {
         if (kUseIoByDefault)
         {
-            number_amount = reader_io.ReadNumber();
-            numbers = reader_io.ReadNumbers(number_amount);
-            requests_amount = reader_io.ReadNumber();
-            requests = reader_io.ReadNumbers(requests_amount);
-            fixed_set.Initialize(numbers);
+            
             std::cout << "Result:   " << std::endl;
-            for (unsigned int iter = 0; iter < requests_amount; ++iter)
-            {
-                if (fixed_set.Contains(requests[iter]))
-                {
-                    std::cout << "Yes" << std::endl;
-                }
-                else
-                {
-                    std::cout << "No" << std::endl;
-                }
-            }
+            
         }
         else
         {
@@ -134,18 +135,12 @@ int main(int argc, char* argv[])
                     file_name = kTestFileA;
                 }
                 filer.Open(file_name);
-                number_amount = filer.ReadNumber();
-                numbers = filer.ReadNumbers(number_amount);
-                requests_amount = filer.ReadNumber();
-                requests = filer.ReadNumbers(requests_amount);
+                
                 filer.Close();
             }
             else if (strcmp(argv[1], "--io") == 0)
             {
-                number_amount = reader_io.ReadNumber();
-                numbers = reader_io.ReadNumbers(number_amount);
-                requests_amount = reader_io.ReadNumber();
-                requests = reader_io.ReadNumbers(requests_amount);
+                
             }
             else
             {
@@ -158,18 +153,7 @@ int main(int argc, char* argv[])
                 return 0;
             }
             
-            fixed_set.Initialize(numbers);
-            for (unsigned int iter = 0; iter < requests_amount; ++iter)
-            {
-                if (fixed_set.Contains(requests[iter]))
-                {
-                    std::cout << "Yes" << std::endl;
-                }
-                else
-                {
-                    std::cout << "No" << std::endl;
-                }
-            }
+            
         }
     }
     if (kStopConsoleProgramBeforeExit)

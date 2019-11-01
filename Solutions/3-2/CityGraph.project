@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Project Name="CityGraph" Version="10.0.0" InternalType="Console">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
   <Reconciliation>
     <Regexes/>
     <Excludepaths/>
@@ -9,11 +14,6 @@
     </Extensions>
     <Topleveldir>../3-2</Topleveldir>
   </Reconciliation>
-  <Plugins>
-    <Plugin Name="qmake">
-      <![CDATA[00010001N0005Debug000000000000]]>
-    </Plugin>
-  </Plugins>
   <Description/>
   <Dependencies/>
   <Settings Type="Executable">
@@ -107,7 +107,7 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="one-filed">
-    <File Name="one-filed/CityGraph.cpp"/>
+    <File Name="one-filed/CityGraph.cpp" ExcludeProjConfig="Debug"/>
   </VirtualDirectory>
   <VirtualDirectory Name="src">
     <File Name="CityGraph.cc"/>

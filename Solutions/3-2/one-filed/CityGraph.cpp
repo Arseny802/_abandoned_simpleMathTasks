@@ -309,16 +309,23 @@ ReaderIo::~ReaderIo() { }
 
 inline void TestFile(std::string file_to_run = kTestFileA)
 {
-    unsigned int number_amount, requests_amount, iter;
-    std::vector<int> numbers, requests;
+    unsigned int cities_amount, iter;
+    std::vector<int> roads_a, roads_b, tmp;
     double elapsed;
-    FixedSet fixed_set;
+    CityGraph city_graph;
     RFiler filer(file_to_run);
     
-    number_amount = filer.ReadNumber();
-    numbers = filer.ReadNumbers(number_amount);
-    requests_amount = filer.ReadNumber();
-    requests = filer.ReadNumbers(requests_amount);
+    cities_amount = filer.ReadNumber();
+    for (iter = 0; iter < cities_amount - 1; ++iter)
+    {
+        tmp = numbers = filer.ReadNumbers(number_amount);
+        
+    }
+    for (iter = 0; iter < cities_amount - 1; ++iter)
+    {
+        tmp = numbers = filer.ReadNumbers(number_amount);
+        
+    }
 
     std::cout << "Testing file '" << file_to_run << "'" << std::endl;
     auto begin = std::chrono::steady_clock::now();
@@ -369,7 +376,7 @@ inline void RunTest()
 
 int main(int argc, char* argv[])
 {
-    FixedSet fixed_set;
+    CityGraph city_graph;
     ReaderIo reader_io;
     RFiler filer;
     std::string file_name;

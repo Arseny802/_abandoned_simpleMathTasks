@@ -7,7 +7,6 @@
   <Project Name="FootballTeam" Path="3-0/FootballTeam.project" Active="No"/>
   <Project Name="FixedSet" Path="3-1/FixedSet.project" Active="No"/>
   <Project Name="CityGraph" Path="3-2/CityGraph.project" Active="Yes"/>
-  <Project Name="MemoryManager" Path="3-3/MemoryManager.project" Active="No"/>
   <Project Name="SlidingStatistics" Path="SlidingStatistics.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
