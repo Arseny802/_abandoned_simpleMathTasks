@@ -1,17 +1,25 @@
-#ifndef R_IO_H
-#define R_IO_H
+#ifndef READER_IO_H
+#define READER_IO_H
 
-#include <iostream>
+#include <iostream>  /* console "reading" */
+#include <fstream>   /* file reading */
+#include <cstring>   /* strncmp() */
+#include <sstream>   /* parse string of integers */
+#include <stdlib.h>  /* atoi */
+#include <ctime>     /* test proccess time elapsed */
+#include <algorithm>
 #include <vector>
+#include <string>
+#include <random>
 
-class R_IO
+class ReaderIo
 {
 public:
-	R_IO();
-	~R_IO();
-	
-	unsigned int ReadNumber();
-	std::vector<unsigned int> ReadNumbers(unsigned int count);
+    ReaderIo();
+    ~ReaderIo();
+
+    unsigned int ReadNumber();
+    std::vector<int> ReadNumbers(const unsigned int amount);
 };
 
-#endif // R_IO_H
+#endif // READER_IO_H

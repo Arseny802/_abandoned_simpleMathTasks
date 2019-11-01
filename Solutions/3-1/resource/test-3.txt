@@ -1,4 +1,22 @@
-1
-14
-14
-1
+15
+1 21 32 54 31 2 5 4 92 198 0 -12 12 -4 -1
+18
+-1 0 1 2 3 4 5 12 -12 94 92 198 54 -4 30 31 32 0
+Yes
+Yes
+Yes
+Yes
+No
+Yes
+Yes
+Yes
+Yes
+No
+Yes
+Yes
+Yes
+Yes
+No
+Yes
+Yes
+Yes

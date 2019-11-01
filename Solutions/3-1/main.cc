@@ -3,7 +3,7 @@
 #include <cstring>   /* strncmp() */
 #include <sstream>   /* parse string of integers */
 #include <stdlib.h>  /* atoi */
-#include <ctime>     /* test proccess time elapsed */
+#include <chrono>    /* test proccess time elapsed */
 #include <algorithm>
 #include <vector>
 #include <string>
@@ -31,7 +31,6 @@ const std::string kTestFileD = "../resource/test-4.txt";
 
 inline void TestFile(std::string file_to_run = kTestFileA)
 {
-    std::clock_t begin, end;
     unsigned int iter;
     double elapsed;
     FixedSet fixed_set;
@@ -43,7 +42,8 @@ inline void TestFile(std::string file_to_run = kTestFileA)
     std::vector<int> requests = filer.ReadNumbers(requests_amount);
 
     std::cout << "Testing file '" << file_to_run << "'" << std::endl;
-    begin = std::clock();
+    auto begin = std::chrono::steady_clock::now();
+    
     fixed_set.Initialize(numbers);
     std::cout << "Result:   " << std::endl;
     for (iter = 0; iter < requests_amount; ++iter)
@@ -58,15 +58,26 @@ inline void TestFile(std::string file_to_run = kTestFileA)
         }
     }
     
-    end = std::clock();
-    elapsed = double(end - begin);
+    elapsed = std::chrono::duration_cast<std::chrono::microseconds>
+        (std::chrono::steady_clock::now() - begin).count() * 0.000001;
     
     std::cout << "Expected: " << std::endl;
     filer.Read();
+    filer.Close();
     
-    std::cout << "Proccess finished in " << elapsed / CLOCKS_PER_SEC << 
-        " seconds." << std::endl;
-    std::cout << "________\n\n";
+    for (iter = 0; iter < number_amount; ++iter)
+    {
+        if (!fixed_set.Contains(numbers[iter]))
+        {
+            std::cout << "Error!" << std::endl;
+            std::cout << "Item " << iter << " not found in set." << std::endl;
+            std::cout << "Item's value: " << numbers[iter] << std::endl;
+        }
+    }
+    numbers.clear();
+    requests.clear();
+    
+    std::cout << "Proccess finished in " << elapsed << " seconds." << std::endl;
 }
 
 inline void RunTest()
@@ -138,6 +149,7 @@ int main(int argc, char* argv[])
                 numbers = filer.ReadNumbers(number_amount);
                 requests_amount = filer.ReadNumber();
                 requests = filer.ReadNumbers(requests_amount);
+                filer.Close();
             }
             else if (strcmp(argv[1], "--io") == 0)
             {
